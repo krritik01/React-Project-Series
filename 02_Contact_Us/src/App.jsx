@@ -1,10 +1,12 @@
-import './App.css'
+import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
 
 function App() {
-
-  return <div>
-    
+  return( 
+  <div>
+    <Navigation />
   </div>
+  )
 }
 
-export default App
+export default App;

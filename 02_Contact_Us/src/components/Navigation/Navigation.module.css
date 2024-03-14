@@ -1,0 +1,24 @@
+.navigation {
+  padding: 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.logo img {
+  background-color: #0a6fa9;
+  border-radius: 5px;
+  display: block;
+  width: 130px; /* Set the width of your logo image */
+  height: auto;
+}
